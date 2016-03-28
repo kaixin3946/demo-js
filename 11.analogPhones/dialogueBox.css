@@ -1,0 +1,17 @@
+div ,input,button{margin: 0;padding: 0;}
+li{list-style-type: none;}
+.mt5{margin-top: 5px}
+.ml5{margin-left: 5px}
+
+.outBorder{width:340px;height:520px;border: 2px solid black;margin:0 auto;border-radius: 5px;}
+#diaBox{width: 320px;height: 456px;border: 1px solid black;margin: 0 auto;margin-top: 15px;word-wrap:break-word;}
+.inBorder{width: 320px;height: 42px;border: 1px solid black;margin: 0 auto;margin-top: 2px;}
+.imgBorder{width: 40px;height: 41px;border: 1px solid black;float: left;margin: 0;padding: 0;}
+.text1{width: 200px;height: 41px;border: 1px solid black;float: left;}
+.button1{width: 75px;height: 42px;border: 1px solid black;float: right;margin: 0;padding: 0;}
+#popDiv{width: 200px;height:60px;background: yellow;float:left;margin-left: 10px;}
+#popDivOut{width: 300px;height:65px;background: green;float:left;}
+#popImg{width: 40px;height:36px;background: pink;float:left;}
+
+
+

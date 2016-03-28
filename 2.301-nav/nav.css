@@ -1,0 +1,43 @@
+
+div,img,ul,input{margin: 0;padding: 0;}
+.fz14{font-size: 14px;}
+.fz20{font-size: 20px;}
+.ml8{margin-left: 8px;}
+.ml25{margin-left: 25px;}
+.ml35{margin-left: 35px;}
+.mg15{margin-right: 15px;}
+.ml45{margin-left: 45px;}
+.mt5{margin-top: 5px;}
+.fl{float: left;}
+.fr{float: right;}
+.nav-list ul{list-style-type: none;margin: 0;padding: 0;}
+.nav-list li{width:40px;float:left;margin-top: 15px;margin-bottom: 5px;}
+.nav-list li a:hover{color: deepskyblue;cursor: pointer;}
+.nav-search{width: 78px;height:25px;float: left;border: 0;color: white;cursor: pointer;background: transparent;}
+
+.shouye{width: 92px;height:70px;float:left;text-align: center;color:white;border:1px;border-color:deepskyblue;
+    font-size: 20px;margin-left: 8px;cursor: pointer;}
+.shouye a:hover{}
+.consult a{color: white;}
+.consult a:hover{background-color: dodgerblue;cursor: pointer;}
+.huli a{color: white;}
+.huli a:hover{background-color: dodgerblue;cursor: pointer;}
+
+/*轮播图*/
+.chag{width: 660px;height:280px;border-radius: 5px;margin-left: 36px;position: relative}
+.chag a{width: 50px;height: 50px;position: absolute;top:110px;background-color: white;text-align: center;
+    filter:alpha(opacity:20);opacity:0.2;border: 5px solid gray;}
+.chag a:hover{background-color:white;filter:alpha(opacity:90);opacity: 0.9;border: 5px solid gray;cursor: pointer;}
+.chag ul{position: absolute;left:260px;bottom: 0;}
+.chag ul li {float:left;margin-left:25px;list-style-type: circle;}
+
+#prev{left: 10px;}
+#next{left: 600px;}
+
+/*轮播图的总导航*/
+.allNav{}
+.allNav ul li{list-style-type: none;float: left;margin: 15px 0 0 56px;font-size: 18px;color: white;width: 76px;height: 28px;
+              border-radius: 5px;}
+
+
+

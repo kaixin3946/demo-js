@@ -1,0 +1,17 @@
+
+p,span{padding:0;margin: 0;}
+.box{position:relative;margin:0 auto;border:1px solid black;width: 300px;height: 300px;background-color: dodgerblue;}
+.suoyin {position:absolute;top:10px;left:778px;width: 50px;height: 150px;background-color: pink;}
+.suoyin ul{}
+.suoyin ul li{background-color: pink;list-style-type: square;}
+#txtImg {position:absolute;left:100px;bottom:0;background-color: yellow;}
+#numImg {position:absolute;left:140px;top: 0;background-color: yellow;}
+.sDiv {position: absolute;top:10px;left:730px;display: none;}
+.sDiv img{width: 65px;height: 65px;border: 1px solid darkgrey;}
+
+
+
+
+
+
+

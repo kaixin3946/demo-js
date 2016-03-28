@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>导航条下拉延时</title>
+    <script type="text/javascript" src="导航条下拉延时.js"></script>
+    <style>
+        div,ul,li{margin:0;padding: 0;}
+        #nav ul li{list-style-type: none;float: left;width:80px;height:28px;margin-left:5px;text-align: center;}
+        .hide{display:none;}
+        .show{display:block;}
+        .drop{width: 280px;height: 40px;background-color:yellow;position: relative;top:5px}
+        .drop li{list-style-type: none;float: left;width:50px;height:28px;margin-left:5px;text-align: center;}
+    </style>
+</head>
+<body>
+    <div style="width: 350px;height:100px;margin: 0 auto;background-color: pink;">
+        <div id="nav" style="width: 350px;height:30px;background-color: blue;">
+            <ul>
+                <li rel="0">首页</li>
+                <li rel="1">关于我们</li>
+                <li rel="2">作品</li>
+                <li rel="3">博客</li>
+            </ul>
+        </div>
+        <div id="shouye"  class="same hide">
+            <ul class="drop" style="left:10px;">
+                <li>首页</li><li>首页</li><li>首页</li><li>首页</li><li>首页</li>
+            </ul>
+        </div>
+        <div class="same hide">
+            <ul class="drop" style="left:30px;">
+                <li>我们</li><li>我们</li><li>我们</li><li>首页</li><li>首页</li>
+            </ul>
+        </div>
+        <div class="same hide">
+            <ul class="drop" style="left:50px;">
+                <li>作品</li><li>作品</li><li>作品</li><li>首页</li><li>首页</li>
+            </ul>
+        </div>
+        <div class="same hide">
+            <ul class="drop" style="left:70px;">
+                <li>博客</li><li>博客</li><li>博客</li><li>首页</li><li>首页</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>点变红绿蓝</title>
+    <link rel="stylesheet" href="click-RGB.css" >
+    <script src="click-RGB.js"></script>
+</head>
+<body>
+    <div><strong>请为下列div设置样式</strong>
+         <button onclick="Set()">点我设置</button>
+    </div>
+    <div id="odiv1" class="div1">
+          空
+    </div>
+    <div id="Pop-box1" class="tm"></div>
+
+    <div id="Pop-box2" class="popbox">
+        <div class="mb">请选择背景颜色：
+            <button style="background-color: red" onclick="tRed()">红</button>
+            <button style="background-color: green" onclick="tGreen()">绿</button>
+            <button style="background-color: blue" onclick="tBlue()">蓝</button>
+        </div>
+        <div class="mb">请选择宽（px）：
+            <button onclick="w200()">200</button>
+            <button onclick="w300()">300</button>
+            <button onclick="w400()">400</button>
+        </div>
+        <div class="mb">请选择高（px）：
+            <button onclick="h200()">200</button>
+            <button onclick="h300()">300</button>
+            <button onclick="h400()">400</button>
+        </div>
+        <div style="text-align: center">
+            <button onclick="osure()">确定</button>
+            <button onclick="reset()">重置</button>
+        </div>
+    </div>
+
+</body>
+</html>

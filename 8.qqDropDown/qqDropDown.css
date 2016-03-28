@@ -1,0 +1,9 @@
+ul,li,h2{margin:0;padding: 0;}
+
+li {list-style-type: none;}
+#all .tab h2{width: 200px;height: 40px;background-color: dodgerblue;}
+#all ul{display: none}
+#all .hide{display: none}
+#all .show{display: block}
+#all ul li{width: 200px;height: 30px;background-color: pink;text-indent: 20px;}
+#all ul .hover{background-color: yellow;}
