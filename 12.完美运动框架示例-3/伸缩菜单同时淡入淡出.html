@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
     <title>伸缩菜单同时淡入淡出</title>
+    <style>
+        html,body,p{margin: 0;padding: 0;}
+        .title{margin-left: 200px;}
+        .title li{list-style-type: none;width: 80px;height: 30px;float: left;background-color: blueviolet;text-align: center;line-height: 30px;}
+        .title li p{}
+        .title .down{background-color: red;filter:alpha(opacity:0);opacity:0;height: 0;overflow: hidden;}
+        /*.content{float: left;}
+        .content li{list-style-type: none;width: 80px;height: 0px;float: left;background-color: pink;text-align: center;}*/
+    </style>
+    <script src="伸缩菜单同时淡入淡出.js"></script>
 </head>
 <body>
-<>
+<ul class="title">
+    <li><p>首页</p><div class="down"><div>首页</div><div>首页</div><div>首页</div></div></li>
+    <li><p>产品</p><div class="down"><div>产品</div><div>产品</div><div>产品</div><div>产品</div><div>产品</div></div></li>
+    <li><p>关于</p><div class="down"><div>关于</div><div>关于</div><div>关于</div></div></li>
+</ul>
+<ul class="content">
+</ul>
 </body>
 </html>

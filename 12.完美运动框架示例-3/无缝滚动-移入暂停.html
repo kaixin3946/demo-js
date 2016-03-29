@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>无缝滚动-移入暂停</title>
+    <style>
+        html,body,ul,li,img{margin: 0;padding: 0;}
+        #div1{width:610px;height:110px;position: absolute;top:50px;left: 150px;background-color: red;overflow: hidden;}
+        ul{height:110px;position: relative;}
+        ul li{width: 140px;height: 100px;float: left;list-style-type: none;padding: 5px;}
+        ul li img{width: 140px;height: 100px;}
+    </style>
+    <script src="无缝滚动-移入暂停.js"></script>
+</head>
+<body>
+<input type="button" value="左">
+<input type="button" value="右">
+<div id="div1">
+    <ul>
+        <li><img src="../img/1.jpg"></li>
+        <li><img src="../img/2.jpg"></li>
+        <li><img src="../img/3.jpg"></li>
+        <li><img src="../img/4.jpg"></li>
+        <li><img src="../img/1.jpg"></li>
+        <li><img src="../img/2.jpg"></li>
+        <li><img src="../img/3.jpg"></li>
+        <li><img src="../img/4.jpg"></li>
+    </ul>
+</div>
+</body>
+</html>
