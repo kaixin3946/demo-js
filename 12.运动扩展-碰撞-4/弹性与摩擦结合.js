@@ -14,9 +14,9 @@ window.onload=function(){
         setInterval(function(){
 
            /* if(oDiv.offsetLeft<300){
-                ispeed+=(300-oDiv.offsetLeft)/50;
+                ispeed+=(300-oDiv.offsetLeft)/5;
             }else{
-                ispeed-=(oDiv.offsetLeft-300)/50;
+                ispeed-=(oDiv.offsetLeft-300)/5;
             }*/
 
             ispeed+=(300-oDiv.offsetLeft)/5;
