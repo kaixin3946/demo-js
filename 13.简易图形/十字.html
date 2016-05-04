@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>十字</title>
+</head>
+<style>
+    #cross {
+        background: red;
+        height: 100px;
+        position: relative;
+        width: 20px;
+        left:50px;
+    }
+    #cross:after {
+        background: red;
+        content: "";
+        height: 20px;
+        left: -40px;
+        position: absolute;
+        top: 40px;
+        width: 100px;
+    }
+
+</style>
+<body>
+<div id="cross"></div>
+</body>
+</html>
