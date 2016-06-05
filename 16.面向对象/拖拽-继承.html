@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>拖拽-继承</title>
+    <script src="拖拽-面向对象v2.0.js"></script>
+    <script src="拖拽-继承.js"></script>
+    <style>
+        #div1{width: 100px;height: 100px;background-color: red;position: absolute;}
+        #div2{width: 100px;height: 100px;background-color: yellow;position: absolute;}
+    </style>
+    <script>
+        window.onload=function(){
+            new Drag("div1");
+            new LimitDrag("div2");
+        }
+    </script>
+</head>
+<body>
+<div id="div1"></div>
+<div id="div2"></div>
+</body>
+</html>
